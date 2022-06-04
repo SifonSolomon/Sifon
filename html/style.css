@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 150px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.card-img {
+    height: 250px;
+    margin-bottom: 50px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1 {
+    background-image:  url("IMG_0119.JPG");
+}
+.card a {
+    background-color: black;
+    color: white;
+    padding: 0.2px;
+    display: block;
+    text-align: center;
+    margin: 20px ;
+}
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    cursor: pointer;
+    transform: scale(1,0.9);
+    transition: all 1s ease;
+
+}

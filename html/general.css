@@ -1,0 +1,19 @@
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+a {
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    
+
+}
+nav a:hover {
+    background: gray;
+    color: blue;
+}
